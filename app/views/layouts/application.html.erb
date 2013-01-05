@@ -7,11 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div id="header">
+     <div class="content" style="display:none;">
+        <a id="msgup">bar</a>
+    </div>
+
+    <div id="header">
         <div class="corpo">
             <div class="titulo">
-                <a href="#">
-                    <img src="/assets/pandox_logo_FINAL_2.png" style="border: 0;" width="238" height="108" alt="Pandox" />
+                <a href="Default.aspx">
+                    <img src="http://img.pandox.com.br/pandox_logo_FINAL_2.png" style="border: 0;" width="238"
+                        height="108" alt="Pandox" />
                 </a>
             </div>
             <div id="navigation">
@@ -27,8 +32,31 @@
             </div>
         </div>
     </div>
-
-<%= yield %>
-
+    <div id="menu">
+        <div class="menucorpo">
+            <ul class="menu">
+                <li><a href="Default.aspx"><span>Home</span></a> </li>
+                <li><a href="Services.aspx" target="_parent"><span>Serviços</span></a> </li>
+                <li><a href="Case.aspx" target="_parent"><span>Clientes</span></a></li>
+                <li class="last"><a href="Contato.aspx" target="_parent"><span>Contato</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="None" style="display: none;">
+        <a href="http://apycom.com/"></a>
+    </div>
+    <div id="main">
+        <%= yield %>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_body">
+            <div class="footer_column_full" style="text-align: center;">
+                <p class="p_footer">
+                    Copyright © 2012 Pandox</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
