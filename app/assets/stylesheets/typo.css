@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* ------------------------- */
+/* ----------- TYPO -------- */
+/* ------------------------- */
+.bold
+{
+    font-weight: bold;
+    color: #000000;
+}
+.lbl_obrigatorio
+{
+    color: #F00;
+}
+
+p
+{
+    margin: 10px 0;
+    padding: 0px;
+}
+
+p.p_footer
+{
+    padding: 0;
+    margin: 0;
+}
+
+p .marging
+{
+    padding-left: 15px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: arial,sans-serif;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    text-transform: none;
+    font-weight: normal;
+    color: #444444;
+}
+
+
+h1
+{
+    border-bottom: #efefef solid 1px;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2A2A2A;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: none;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 8px;
+}
+h3
+{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+h4
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #3c71f9;
+}
+h5
+{
+    font-family: 'open sans' ,arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+    text-align:center;
+    margin-bottom: 5px;
+}
+h6
+{
+    font-family: 'open sans' ,arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 0px;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 20px;
+}
+
+.destaque_1 
+{
+    text-transform:uppercase;
+    width: 100%;
+    display:block;
+    font-weight:bold;
+    font-size:30px;
+    color:#000000;
+    margin-bottom:10px;
+}
+
+/* ----- COLORs ----- */
+.blue 
+{
+    color:#2372d3;
+}
+
+
+/* ----- TEXTO ----- */
+.texto_normal
+{
+    color: #666666;
+}
+.underline
+{
+    text-decoration: underline;
+}
+.bold
+{
+    font-weight: bold;
+}
+.align_left { text-align:left; }
+.align_right { text-align:right; }
+
+
+.tbl_content_left
+{
+    width: 85px;
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.tbl_content_right
+{
+    width: 300px;
+    float: left;
+    font-weight: normal;
+    text-align: left;
+}
+
+/* ---------------------- */
+/* ------ LISTS --------- */
+/* ---------------------- */
+ul.social-media
+{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+ul.social-media li a
+{
+    display: block;
+    min-height: 16px;
+}
+
+.ul_normal
+{
+    list-style-image: url(http://img.pandox.com.br/icon/dot_20x18.gif);
+    margin: 0;
+    list-style-position: inside;
+}
+li.li_normal
+{
+}
+
+ul.ul_right
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.ul_right li
+{
+    margin: 10px 0;
+}
+
+
+ul.ul_footer
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #636B75;
+}
+
+
+
+/* ----- FORMs ----- */
+#form
+{
+}
+#form .form_left
+{
+    display: block;
+    width: 100px;
+    float: left;
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+
+#form input, textarea
+{
+    margin: 5px;
+    padding: 8px;
+    width:200px;
+    color: #000000;
+    font-size: 12px;
+    border-radius:6px;
+    border: 1px solid #A1A1A1;
+}
+
+
+#form .buttonSubmit
+{
+    margin: 0px;
+    padding: 8px;
+    width:75px;
+    color: #0073EA;
+    font-size: 14px;
+    font-weight:bold;
+    background: #F6F6F6;
+    border: 1px solid #DDD;
+    border-radius:2px;
+}
+
+
+#form .btnOverEvent
+{
+    color: #FFFFFF;
+    background: #0073EA;
+    border: 1px solid #0073EA;
+}
+
+#form textarea 
+{
+    width:280px;
+}
+
+
+#form .input_overEvent
+{
+    border: 1px solid #2F354A;
+}
+
+#form .input_onFocus
+{
+    -moz-box-shadow: 0 0 5px 1px #c4e9f1;
+    -webkit-box-shadow: 0 0 5px 1px #c4e9f1;
+    box-shadow: 0 0 5px 1px #c4e9f1;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+.error
+{
+    font-size: 12px;
+    color: #df3434;
+    padding: 1px 0px 10px 120px;
+}
+
+.input_error 
+{
+    background:red;   
+}
+
+.box_sucesso
+{
+    border: 1px solid;
+    color: #4F8A10;
+}

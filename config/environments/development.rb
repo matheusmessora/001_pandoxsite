@@ -29,9 +29,15 @@ Site::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   config.active_record.auto_explain_threshold_in_seconds = 0.5
 
-  # Do not compress assets
+  # Compress assets
   config.assets.compress = false
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Compress JS (config.assets.compress must be true)
+  # config.assets.js_compressor = :uglifier
+  
+  # Still in BUG-MODE
+  # config.assets.css_compressor = :scss
 end

@@ -1,0 +1,105 @@
+/* ------------------------- */
+/* ---------  LINKS  -------- */
+/* ------------------------- */
+a:link, a:visited
+{
+    color: #1155CC;
+    text-decoration: none;
+}
+a:focus, a:hover, a:active 
+{
+    color: #1155CC;
+    text-decoration: underline;
+}
+
+#header a.menu:link, #header a.menu:visited  {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	font-size:16px;
+	padding:10px 0px;
+	text-decoration:none;
+	margin: 0px 30px;
+}
+#header a.menu:hover, #header a.menu:active {
+	color:#09a4fd;
+	border-bottom: 1px solid #09a4fd;
+}
+
+
+a.a_footer_menu:link, a.a_footer_menu:visited  {
+	font-size:10px;
+	letter-spacing:1px;
+	color:#636B75;
+	text-decoration:none;
+}
+a.a_footer_menu:hover, a.a_footer_menu:active {
+	color:#f4f6fc;
+	padding-left:3px;
+	font-size: 10px;
+}
+
+a.a_sidebar  
+{
+  padding:  5px 14px;  
+  background-color:#666666;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  color:#FFFFFF;
+  cursor:pointer;
+  display:inline-block;
+  font-size:13px;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+a.a_mais:link, a.a_mais:visited  {
+	display:block;
+	width:20%;
+	padding-left:26px;
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	color:#2E88C7;
+	text-decoration:none;
+}
+a.a_mais:hover, a.a_mais:active {
+	color:#000000;
+}
+
+a.a_normal:link, a.a_normal:visited  {
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	color:#2E88C7;
+	text-decoration:none;
+}
+a.a_normal:hover, a.a_normal:active {
+	color:#2E88C7;
+	border-bottom:#4A8094 solid 1px;
+}
+
+a.a_li_right {
+	color:#636B75;
+	text-decoration:none;
+}
+
+
+
+a.social-media
+{
+    padding-left:20px;
+    margin:7px 0;
+}
+
+a.facebook 
+{
+    background: url(icon/facebook_16.png) no-repeat;
+}
+
+a.gplus 
+{
+    background: url(icon/gplus-16.png) no-repeat;
+}
+
+a.feed 
+{
+    background: url(icon/feed_16.png) no-repeat;
+}
