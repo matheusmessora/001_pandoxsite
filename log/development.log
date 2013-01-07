@@ -27821,3 +27821,108 @@ Served asset /application.js - 304 Not Modified (4ms)
 
 Started GET "/assets/pandox_logo.png" for 127.0.0.1 at 2013-01-06 22:50:40 -0200
 Served asset /pandox_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/contato" for 127.0.0.1 at 2013-01-06 22:54:23 -0200
+Processing by HomeController#contato as HTML
+  Rendered text template (0.0ms)
+  Rendered text template (0.0ms)
+
+Sent mail to matheus.messora.vpn@gmail.com (5287ms)
+Date: Sun, 06 Jan 2013 22:54:23 -0200
+From: from@example.com
+To: matheus.messora.vpn@gmail.com
+Message-ID: <50ea1cbf9f05_49ea3ffb248b6de8438bb@Pegasus-PC.mail>
+Subject: TESTE
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_50ea1cbf67c3_49ea3ffb248b6de843598";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_50ea1cbf67c3_49ea3ffb248b6de843598
+Date: Sun, 06 Jan 2013 22:54:23 -0200
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <50ea1cbf9111_49ea3ffb248b6de84362a@Pegasus-PC.mail>
+
+Hello Mikel!
+
+----==_mimepart_50ea1cbf67c3_49ea3ffb248b6de843598
+Date: Sun, 06 Jan 2013 22:54:23 -0200
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <50ea1cbf98fd_49ea3ffb248b6de8437cb@Pegasus-PC.mail>
+
+<h1>Hello Mikel!</h1>
+
+----==_mimepart_50ea1cbf67c3_49ea3ffb248b6de843598--
+
+  Rendered home/contato.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5329ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /menu.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forms.css?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /links.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/css.css?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /css.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/typo.css?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /typo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jbar.js?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /jbar.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ticker.js?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /ticker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lavalamp.js?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /lavalamp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pandox_logo.png" for 127.0.0.1 at 2013-01-06 22:54:28 -0200
+Served asset /pandox_logo.png - 304 Not Modified (0ms)
