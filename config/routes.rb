@@ -1,11 +1,18 @@
 Site::Application.routes.draw do
+  get "home/contato"
+
+  get "home/servico"
+
   get "home/index"
+
   root :to => 'home#index'
 
-  match '/' => "home#index"
+  match '/servico' => "home#service"
+  match '/contato' => "home#contato"
+  match '/index' => "home#index"
+  match '/home' => "home#index"
 
-  resources :services
-
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

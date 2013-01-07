@@ -1,10 +1,5 @@
 class HomeController < ApplicationController
-  def index
+  def contato
+  	ContactMailer.welcome("teste").deliver
   end
-
-
-  def services
-  	
-  end
-
 end

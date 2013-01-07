@@ -15,8 +15,7 @@
         <div class="corpo">
             <div class="titulo">
                 <a href="Default.aspx">
-                    <img src="http://img.pandox.com.br/pandox_logo_FINAL_2.png" style="border: 0;" width="238"
-                        height="108" alt="Pandox" />
+                    <%= image_tag "pandox_logo.png", :size => "238x108" %>
                 </a>
             </div>
             <div id="navigation">
@@ -35,10 +34,9 @@
     <div id="menu">
         <div class="menucorpo">
             <ul class="menu">
-                <li><span><%= link_to "Home" %></span></li>
-                <li><span><%= link_to "Serviços", "services" %></span></li>
-                <li><a href="Case.aspx" target="_parent"><span>Clientes</span></a></li>
-                <li class="last"><a href="Contato.aspx" target="_parent"><span>Contato</span></a></li>
+                <li><span><%= link_to "Home", '/' %></span></li>
+                <li><span><%= link_to "Serviços", "servico" %></span></li>
+                <li><span><%= link_to "Contato", "contato" %></span></li>
             </ul>
         </div>
     </div>

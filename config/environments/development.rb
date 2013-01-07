@@ -36,8 +36,25 @@ Site::Application.configure do
   config.assets.debug = true
 
   # Compress JS (config.assets.compress must be true)
-  # config.assets.js_compressor = :uglifier
+  config.assets.js_compressor = :uglifier
   
   # Still in BUG-MODE
   # config.assets.css_compressor = :scss
+
+
+  # EMAILS SETTINGS ABOVE
+  config.action_mailer.raise_delivery_errors = true
+
+  # set delivery method to :smtp, :sendmail or :test
+  config.action_mailer.delivery_method = :smtp
+
+	# these options are only needed if you choose smtp delivery
+	config.action_mailer.smtp_settings = {
+		:address        => 'smtp.gmail.com',
+		:port           => 587,
+		:domain         => 'www.pandox.com.br',
+		:authentication => :login,
+		:user_name      => 'matheus.messora.vpn@gmail.com',
+		:password       => '<YOUR_PASSWORD>'
+	}
 end
