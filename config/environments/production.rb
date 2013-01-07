@@ -23,6 +23,23 @@ Site::Application.configure do
 	# Compress JS (config.assets.compress must be true)
 	config.assets.js_compressor = :uglifier
 
+
+  # EMAILS SETTINGS ABOVE
+  config.action_mailer.raise_delivery_errors = true
+
+  # set delivery method to :smtp, :sendmail or :test
+  config.action_mailer.delivery_method = :smtp
+
+	# these options are only needed if you choose smtp delivery
+	config.action_mailer.smtp_settings = {
+		:address        => 'smtp.gmail.com',
+		:port           => 587,
+		:domain         => 'www.pandox.com.br',
+		:authentication => :login,
+		:user_name      => 'matheus.messora.vpn@gmail.com',
+		:password       => ENV['PARAM1']
+	}
+
 	# Defaults to nil and saved in location specified by config.assets.prefix
 	# config.assets.manifest = YOUR_PATH
 
