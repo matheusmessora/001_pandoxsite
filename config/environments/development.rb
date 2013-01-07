@@ -1,5 +1,11 @@
 Site::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
+  config.before_configuration do
+    env_file = File.join(Rails.root, 'config', 'env.yml')
+    YAML.load(File.open(env_file)).each do |key, value|
+      ENV[key.to_s] = value
+    end if File.exists?(env_file)
+  end
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
@@ -55,6 +61,8 @@ Site::Application.configure do
 		:domain         => 'www.pandox.com.br',
 		:authentication => :login,
 		:user_name      => 'matheus.messora.vpn@gmail.com',
-		:password       => '<YOUR_PASSWORD>'
+		:password       => ENV['GMAIL_PASSWORD']
 	}
+
+
 end
