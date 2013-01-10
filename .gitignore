@@ -1,6 +1,7 @@
 .elasticbeanstalk/
 *.rbc
 *.sassc
+*.gz
 .sass-cache
 capybara-*.html
 .rspec
@@ -9,6 +10,7 @@ capybara-*.html
 /vendor/bundle
 /log/*
 /tmp/*
+/config/env.yml
 /db/*.sqlite3
 /public/system/*
 /coverage/
